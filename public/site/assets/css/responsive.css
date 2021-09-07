@@ -1,0 +1,46 @@
+@media (min-width: 1920px) {
+
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+    .btn-cadastrar{
+        background: #ec5121;
+        margin: 20px 9px;
+        padding: 14px 13px 10px 12px;
+        font-size: 1.2em;
+        color: #fff;
+    }
+
+    .btn-cadastrar:hover{
+        background: #67bf3d;
+        margin: 20px 9px;
+        padding: 14px 13px 10px 12px;
+        font-size: 1.2em;
+        color: #fff;
+    }
+
+    .story .col-wrapper{padding: -1px 5px 9px;margin: 0px 16px 2px;}
+
+
+}
